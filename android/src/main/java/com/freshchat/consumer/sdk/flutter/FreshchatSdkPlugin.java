@@ -541,6 +541,7 @@ public class FreshchatSdkPlugin implements FlutterPlugin, MethodCallHandler {
 
                 case "init":
                     init(call);
+                    result.success();
                     break;
 
                 case "showFAQ":
